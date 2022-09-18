@@ -12,7 +12,6 @@
 <body>
     <nav>
         <img class="menu" src="./images/icons/icon_menu.svg" alt="menu">
-
         <div class="navbar-left">
             <img src="./images/logos/logo_yard_sale.svg" alt="logo" class="logo">
             <ul>
@@ -101,55 +100,6 @@
     
         </div>
     </nav>
-    <aside class="product-detail inactive">
-        <div class="title-container">
-            <img src="./images/icons/flechita.svg" alt="arrow">
-            <p class="title">My order</p>
-        </div>
-        <div class="my-order-content">
-            <div class="shopping-card">
-                <figure>
-                    <img src="https://images.pexels.com/photos/1149601/pexels-photo-1149601.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                </figure>
-                <p>Bike</p>
-                <p>$30.00</p>
-                <img src="./images/icons/icon_close.png" alt="close">
-            </div>
-            <div class="shopping-card">
-                <figure>
-                    <img src="https://images.pexels.com/photos/1149601/pexels-photo-1149601.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                </figure>
-                <p>Bike</p>
-                <p>$30.00</p>
-                <img src="./images/icons/icon_close.png" alt="close">
-            </div>
-            <div class="shopping-card">
-                <figure>
-                    <img src="https://images.pexels.com/photos/1149601/pexels-photo-1149601.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                </figure>
-                <p>Bike</p>
-                <p>$30.00</p>
-                <img src="./images/icons/icon_close.png" alt="close">
-            </div>
-            <div class="shopping-card">
-                <figure>
-                    <img src="https://images.pexels.com/photos/1149601/pexels-photo-1149601.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                </figure>
-                <p>Bike</p>
-                <p>$30.00</p>
-                <img src="./images/icons/icon_close.png" alt="close">
-            </div>
-            <div class="order">
-                <p >
-                    <span>Total</span>
-                </p>
-                <p>$560.00</p>
-            </div>
-            <button class="primary-button">
-                Checkout
-            </button>
-        </div>
-    </aside>
     <section class="main_container">
         <div class="cards_container">
             <!-- <div class="product_card">
@@ -168,6 +118,53 @@
             </div> -->
         </div>
     </section>
+    <aside class="order inactive">
+        <div class="title-container">
+            <img src="./images/icons/flechita.svg" alt="arrow">
+            <p class="title">My order</p>
+        </div>
+        <div class="order_content">
+            <div class="shopping-card">
+                <figure>
+                    <img src="https://images.pexels.com/photos/1149601/pexels-photo-1149601.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                </figure>
+                <p>Bike</p>
+                <p>$30.00</p>
+                <img src="./images/icons/icon_close.png" alt="close">
+            </div>
+            <div class="order_amount">
+                <p >
+                    <span>Total</span>
+                </p>
+                <p>$560.00</p>
+            </div>
+            <button class="primary-button">
+                Checkout
+            </button>
+        </div>
+    </aside>
+    <aside class="product-detail inactive">
+        <div class="product-detail-close">
+            <img src="./images/icons/icon_close.png" alt="close">
+        </div>
+        <img src="https://images.pexels.com/photos/1149601/pexels-photo-1149601.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="bike">
+        <div class="points">
+            <ul>
+                <li><button class="active"></button></li>
+                <li><button></button></li>
+                <li><button></button></li>
+            </ul>
+        </div>
+        <div class="product-info">
+            <p>$35,00</p>
+            <p>Bike</p>
+            <p>With its functional and practical design, this bike also fulfills a decorative function, adding personality and a retro-vintage aesthetic to your house.</p>
+            <button class="primary-button add-to-cart--button">
+                <img src="./images/icons/bt_add_to_cart.svg" alt="add to cart">
+            </button>
+        </div>
+    </aside>
+    
     <script src="./src/index.js"></script>
 </body>
 </html>
